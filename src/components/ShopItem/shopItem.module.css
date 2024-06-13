@@ -1,0 +1,55 @@
+.item {
+    background-color: #F5F5F6;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    margin: 3px 1% 0 4%;
+    height: 100px;
+    width: 95%;
+}
+
+.item-title {
+    margin-left: auto;
+}
+
+.item-color {
+    color: #6B6A69;
+    margin-left: auto;
+}
+
+.item-img {
+    height: 100px;
+    width: 100px;
+}
+
+.item-price {
+    color: #D64433;
+    font-size: 20px;
+
+    margin-left: auto;
+}
+
+.item-btn {
+    border-color: #D53E2D;
+    border-radius: 17px;
+    color: #D53E2D;
+
+    cursor: pointer;
+
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin-left: auto;
+    margin-right: 3%;
+    padding: 10px;
+}
+
+.item-btn:hover {
+    background-color: #D53E2D;
+    color: #fff;
+
+    transition: all 0.7s ease;
+}

@@ -1,0 +1,64 @@
+
+.card {
+    background-color: #F5F5F6;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+    width: 25%;
+}
+
+.card:nth-child(3n+2) {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-color {
+    color: #6B6A69;
+    text-align: center;
+}
+
+.card-img {
+    display: block;
+    margin: 0 auto;
+
+    height: 180px;
+    width: 240px;
+}
+
+.card-price {
+    display: inline-block;
+    color: #D64433;
+    font-size: 20px;
+
+    padding: 0 0 10px 19px;
+}
+
+.card-btn {
+    border-color: #D53E2D;
+    border-radius: 17px;
+    color: #D53E2D;
+
+    cursor: pointer;
+
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    float: right;
+    padding: 10px;
+    margin: 10px 25px 10px 0;
+}
+
+.card-btn:hover {
+    background-color: #D53E2D;
+    color: #fff;
+
+    transition: all 0.7s;
+}
